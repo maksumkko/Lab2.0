@@ -15,12 +15,12 @@ int main()
 
 	cout << "a = "; cin >> x;
 
-	z1 = (sin(2 * x) + sin(5 * x) - sin(3 * x)) / (cos(x) + 1 - 2 * sin(2 * x) * sin(2 * x));
-	//z2 = 2 * sin(x);
+	//z1 = (sin(2 * x) + sin(5 * x) - sin(3 * x)) / (cos(x) + 1 - 2 * sin(2 * x) * sin(2 * x));
+	z2 = 2 * sin(x);
 
 	cout << endl;
-	cout << "z1 = " << z1 << endl;
-	//cout << "z2 = " << z2 << endl;
+	//cout << "z1 = " << z1 << endl;
+	cout << "z2 = " << z2 << endl;
 
 	system("pause");
 	return 0;
